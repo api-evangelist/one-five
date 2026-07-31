@@ -1,7 +1,28 @@
 aid: one-five
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/one-five.png
 name: One Five
-description: One Five is a company surfaced as a portfolio company of speedinvest and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  One Five (styled one.five) is a sustainable packaging technology company based
+  in Holm, Germany that pairs an AI-driven decision platform, Quartermaster, with
+  ready-to-use recyclable and compostable packaging products. The Quartermaster
+  platform embeds product-market-fit and material analysis into packaging
+  development to accelerate material scouting and packing trials, helping consumer
+  brands cut R&D spend, improve customer acquisition efficiency, and meet emerging
+  packaging regulations while reducing environmental impact. One Five ships flexible
+  sustainable packaging for categories such as dishwasher tablets and gummies through
+  partners including Bluemorph and Glassleaf, and is backed by Speedinvest. The company
+  offers no public developer API, SDKs, or developer portal at this time.
 url: https://raw.githubusercontent.com/api-evangelist/one-five/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +32,40 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Sustainable Packaging
+- Packaging Technology
+- Artificial Intelligence
+- Materials Science
+- Consumer Goods
+- Sustainability
 apis: []
+common:
+- type: DomainSecurity
+  url: security/one-five-domain-security.yml
+- type: Website
+  url: https://one-five.com
+- type: About
+  url: https://one-five.com/about
+- type: Blog
+  url: https://one-five.com/newsroom
+- type: Support
+  url: https://one-five.com/contact
+- type: PrivacyPolicy
+  url: https://one-five.com/privacy-policy
+- type: TermsOfService
+  url: https://one-five.com/terms-of-service
+- type: LinkedIn
+  url: https://www.linkedin.com/company/one-five-com/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
